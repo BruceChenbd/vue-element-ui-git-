@@ -23,5 +23,5 @@ export function getTitle(type,subject,pagesize,pagenum,sort,chapter){
        sort,
        chapter
     }
-      return post('http://api.jisuapi.com/driverexam/query',qs.stringify(data))
+    return post('http://api.jisuapi.com/driverexam/query',qs.stringify(data))
 }
